@@ -23,3 +23,12 @@ curr_value = curr_value * 2
 This program should have a while loop and the while loop condition should test if curr_value is less than 100. Thus, your program will have the line:
 
 while curr_value < 100:"""
+
+def main():
+    curr_value = int(input("Enger a number: "))
+    while curr_value < 100:
+        curr_value = curr_value * 2
+        print(curr_value)
+
+if __name__ == "__main__":
+    main()
